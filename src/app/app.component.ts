@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'learning-center';
+  title = 'ACME Learning Center';
+  options = [
+    { path: '/home', title: 'Home'},
+    { path: '/about', title: 'About'}
+  ]
 }
