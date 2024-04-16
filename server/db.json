@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 26,
+      "address": "Nowhere"
+    },
+    {
+      "id": "2",
+      "name": "Jason Bourne",
+      "age": 34,
+      "address": "Unknown"
+    },
+    {
+      "id": "3",
+      "name": "William Norton",
+      "age": 30,
+      "address": "One secret place"
+    },
+    {
+      "id": "4",
+      "name": "Mark Smith",
+      "age": 35,
+      "address": "The New City"
+    },
+    {
+      "id": "d283",
+      "name": "Arthur Curry",
+      "age": 30,
+      "address": "Beach"
+    }
+  ]
+}
