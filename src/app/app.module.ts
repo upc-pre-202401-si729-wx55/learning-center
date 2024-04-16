@@ -17,10 +17,16 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
+import { HomeComponent } from './public/pages/home/home.component';
+import { AboutComponent } from './public/pages/about/about.component';
+import { PageNotFoundComponent } from './public/pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
