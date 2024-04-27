@@ -21,6 +21,7 @@ import { HomeComponent } from './public/pages/home/home.component';
 import { AboutComponent } from './public/pages/about/about.component';
 import { PageNotFoundComponent } from './public/pages/page-not-found/page-not-found.component';
 import { StudentCreateAndEditComponent } from './learning/components/student-create-and-edit/student-create-and-edit.component';
+import { StudentManagementComponent } from './learning/pages/student-management/student-management.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { StudentCreateAndEditComponent } from './learning/components/student-cre
     HomeComponent,
     AboutComponent,
     PageNotFoundComponent,
-    StudentCreateAndEditComponent
+    StudentCreateAndEditComponent,
+    StudentManagementComponent
   ],
   imports: [
     BrowserModule,
