@@ -3,5 +3,6 @@
   <div class="mat-spacer"></div>
   <a mat-button *ngFor="let option of options"
      [routerLink]="option.path">{{ option.title }}</a>
+  | <app-authentication-section/>
 </mat-toolbar>
 <router-outlet/>
