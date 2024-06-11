@@ -24,6 +24,7 @@ import { StudentCreateAndEditComponent } from './learning/components/student-cre
 import { StudentManagementComponent } from './learning/pages/student-management/student-management.component';
 import { SignInComponent } from './iam/pages/sign-in/sign-in.component';
 import { SignUpComponent } from './iam/pages/sign-up/sign-up.component';
+import { AuthenticationSectionComponent } from './iam/components/authentication-section/authentication-section.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SignUpComponent } from './iam/pages/sign-up/sign-up.component';
     StudentCreateAndEditComponent,
     StudentManagementComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    AuthenticationSectionComponent
   ],
   imports: [
     BrowserModule,
